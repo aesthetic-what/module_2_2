@@ -5,3 +5,5 @@ while i != len(my_list):
     x = my_list.pop()
     if x > 0:
         print(x)
+    elif x < 0:
+        break
